@@ -1,4 +1,4 @@
-package Singleton;
+package singleton;
 
 public final class StaticInnerClassSingleton {
     private StaticInnerClassSingleton() {}

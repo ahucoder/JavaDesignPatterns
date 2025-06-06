@@ -1,10 +1,10 @@
 package singleton;
 
-import Singleton.DoubleCheckedLockingSingleton;
 import common.utils.SerializationUtils;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -32,7 +32,7 @@ public class DoubleCheckedLockingSingletonTest {
             DoubleCheckedLockingSingleton instance1 = DoubleCheckedLockingSingleton.getInstance();
 
             //Attempt to create a second instance through reflection
-            assertThrows(RuntimeException.class, () -> {
+            assertThrows(InvocationTargetException.class, () -> {
                 DoubleCheckedLockingSingleton instance2 = constructor.newInstance();
             }, "An exception should be thrown to prevent reflection from creating an instance");
 
