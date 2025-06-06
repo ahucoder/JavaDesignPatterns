@@ -1,4 +1,4 @@
-package Singleton;
+package singleton;
 
 import java.io.Serial;
 import java.io.Serializable;
