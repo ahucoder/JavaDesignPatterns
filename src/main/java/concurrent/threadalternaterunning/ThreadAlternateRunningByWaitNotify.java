@@ -1,4 +1,4 @@
-package multi_threading.thread_alternate_running;
+package concurrent.threadalternaterunning;
 
 public class ThreadAlternateRunningByWaitNotify {
     public static void main(String[] args) {

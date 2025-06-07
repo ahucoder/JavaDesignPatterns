@@ -1,4 +1,4 @@
-package multi_threading.producer_consumer;
+package concurrent.producerconsumer;
 
 import lombok.Getter;
 import lombok.Setter;
