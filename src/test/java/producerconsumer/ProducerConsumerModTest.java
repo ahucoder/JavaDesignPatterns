@@ -1,7 +1,7 @@
 package producerconsumer;
 
-import concurrent.producerconsumer.Message;
-import concurrent.producerconsumer.MessageQueue;
+import concurrency.producerconsumer.Message;
+import concurrency.producerconsumer.MessageQueue;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

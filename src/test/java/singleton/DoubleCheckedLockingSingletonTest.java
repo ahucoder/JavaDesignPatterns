@@ -1,6 +1,7 @@
 package singleton;
 
-import common.utils.SerializationUtils;
+import utils.SerializationUtils;
+import creational.singleton.DoubleCheckedLockingSingleton;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Constructor;
