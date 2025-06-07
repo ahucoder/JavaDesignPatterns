@@ -1,4 +1,4 @@
-package multi_threading.guarded_suspension;
+package concurrent.guardedsuspension;
 
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.collect.Lists;

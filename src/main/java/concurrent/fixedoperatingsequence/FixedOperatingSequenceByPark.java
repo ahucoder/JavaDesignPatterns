@@ -1,4 +1,4 @@
-package multi_threading.fixed_operating_sequence;
+package concurrent.fixedoperatingsequence;
 
 import java.util.concurrent.locks.LockSupport;
 

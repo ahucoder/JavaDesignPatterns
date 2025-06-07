@@ -1,4 +1,4 @@
-package multi_threading.thread_alternate_running;
+package concurrent.threadalternaterunning;
 
 import java.util.concurrent.locks.LockSupport;
 

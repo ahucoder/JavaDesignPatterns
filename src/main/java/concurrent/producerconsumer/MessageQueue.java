@@ -1,4 +1,4 @@
-package multi_threading.producer_consumer;
+package concurrent.producerconsumer;
 
 import com.google.common.collect.Lists;
 

@@ -1,7 +1,7 @@
-package producer_consumer;
+package producerconsumer;
 
-import multi_threading.producer_consumer.Message;
-import multi_threading.producer_consumer.MessageQueue;
+import concurrent.producerconsumer.Message;
+import concurrent.producerconsumer.MessageQueue;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
