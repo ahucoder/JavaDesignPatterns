@@ -1,6 +1,6 @@
 # Java Design Patterns
 
-A comprehensive collection of Java design pattern implementations, including the 23 GoF patterns as well as additional patterns commonly used in modern development. Each pattern includes detailed explanations, UML diagrams, and real-world example code.
+A comprehensive collection of Java design pattern implementations, including the 23 GoF patterns as well as additional patterns commonly used in modern development. 
 
 ## Why Learn Design Patterns?
 
