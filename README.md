@@ -15,11 +15,11 @@
 ### 创建型模式
 | 模式                                                   | 描述 | 示例 |
 |------------------------------------------------------|------|------|
-| [单例 (Singleton)](src/main/java/creational/singleton)            | 确保一个类只有一个实例 | 数据库连接池 |
-| [工厂方法 (Factory Method)]()                        | 创建对象而不指定具体类 | UI 跨平台组件创建 |
-| [抽象工厂 (Abstract Factory)]()                      | 创建相关对象族 | 跨平台 UI 组件套件 |
-| [建造者 (Builder)]()    | 分步构建复杂对象 | SQL 查询构建器 |
-| [原型 (Prototype)]() | 通过克隆创建对象 | 游戏角色复制 |
+| [单例 (Singleton)](src/main/java/creational/singleton) | 确保一个类只有一个实例 | 数据库连接池 |
+| [工厂方法 (Factory Method)]()                            | 创建对象而不指定具体类 | UI 跨平台组件创建 |
+| [抽象工厂 (Abstract Factory)]()                          | 创建相关对象族 | 跨平台 UI 组件套件 |
+| [建造者 (Builder)](src/main/java/creational/builder)    | 分步构建复杂对象 | SQL 查询构建器 |
+| [原型 (Prototype)]()                                   | 通过克隆创建对象 | 游戏角色复制 |
 
 ### 结构型模式
 | 模式 | 描述 | 示例 |
